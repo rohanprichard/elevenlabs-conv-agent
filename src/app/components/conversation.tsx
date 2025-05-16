@@ -22,7 +22,7 @@ export function Conversation({ className }: ConversationProps) {
       await navigator.mediaDevices.getUserMedia({ audio: true });
 
       await conversation.startSession({
-        agentId: 'agent_01jvc8xjn8ewprvx6sw82zvcgq',
+        agentId: 'I6xnhSxzZ539QnZYz84e',
       });
       setIsConnected(true);
     } catch (error) {
